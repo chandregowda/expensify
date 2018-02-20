@@ -1,0 +1,10 @@
+.nav-links > a {
+	color: lightblue;
+	display: inline-flex;
+	margin: $s-size;
+	text-decoration: none;
+}
+.nav-links > a.is-active {
+	color: yellow;
+	font-weight: bold;
+}
