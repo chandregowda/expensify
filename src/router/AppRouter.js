@@ -6,7 +6,7 @@ import Home from '../components/Home';
 import AddExpense from '../components/AddExpense';
 import EditExpense from '../components/EditExpense';
 import Help from '../components/Help';
-import FourZeroFour from '../components/FourZeroFour';
+import NoPageFound from '../components/NoPageFound';
 
 const AppRouter = () => (
 	<BrowserRouter>
@@ -17,7 +17,7 @@ const AppRouter = () => (
 				<Route exact path="/add" component={AddExpense} />
 				<Route exact path="/edit/:id" component={EditExpense} />
 				<Route exact path="/help" component={Help} />
-				<Route component={FourZeroFour} />
+				<Route component={NoPageFound} />
 			</Switch>
 		</div>
 	</BrowserRouter>
