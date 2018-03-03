@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should display 404 No Page found error 1`] = `
+<p>
+  404! Route not found - 
+  <Link
+    replace={false}
+    to="/"
+  >
+    Go Home
+  </Link>
+</p>
+`;
